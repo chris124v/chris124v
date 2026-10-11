@@ -205,7 +205,7 @@
 
 ## What I Enjoy as a Developer
 
-- **Leading projects:** taking the lead role, setting the technical direction, and keeping the team aligned.
+- **Leading projects:** taking the lead role, setting the technical direction, and setting goals.
 - **Working as a team:** building things together and sharing what each person does best.
 - **Being creative:** finding new ways to solve problems and turning ideas into working products.
 - **Meeting people:** connecting with developers, users, and people from other fields.

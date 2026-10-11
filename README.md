@@ -35,12 +35,14 @@
 <h3 align="center">PymeBoost</h3>
 
 <p align="center">
-  🏆 <b>Winner of the CRTW Hackathon 2026</b> · Participant in the <a href="https://diprovid.ucr.ac.cr/auge/"><b>AUGE</b></a> program · Team of 4
+  🏆 <b>Winner of the CRTW Hackathon 2026</b> · Participant in the <a href="https://diprovid.ucr.ac.cr/auge/"><b>AUGE</b></a> program<br>
+  👑 <b>Frontend Lead</b> · Team of 4
 </p>
 
-PymeBoost is a platform that connects Costa Rican SMEs with high-performance business advisors through a results-driven model. Many SMEs struggle to identify which areas of their business need improvement and whom to trust to fix them, so the platform analyzes each SME's context, challenges, and goals with an AI matching system that recommends the most suitable advisors. From there, both sides negotiate through structured messaging, generate a contract with clear and measurable objectives, and track its progress phase by phase with reports and a shared dashboard. Onboarding validates legal documents with OCR against the official MEIC registry, and the interface was refined through stakeholder interviews and usability tests with heatmaps on a prototype deployed on Vercel.
+PymeBoost connects Costa Rican SMEs with high-performance business advisors through a results-driven model. An AI matching system analyzes each SME's context and goals to recommend the best advisors, and both sides then negotiate, sign a contract with measurable objectives, and track its progress phase by phase on a shared dashboard. Onboarding validates legal documents with OCR against the official MEIC registry. **I led the frontend**, defining its architecture and standards, coordinating the integration with the backend, and co-leading the user research and usability tests behind the prototype.
 
 <p align="center">
+  <b>Frontend</b><br>
   <img src="https://img.shields.io/badge/Next.js-0d1117?style=flat&logo=nextdotjs&logoColor=white" alt="Next.js">
   <img src="https://img.shields.io/badge/React-0d1117?style=flat&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat&logo=typescript&logoColor=3178C6" alt="TypeScript">
@@ -50,12 +52,29 @@ PymeBoost is a platform that connects Costa Rican SMEs with high-performance bus
   <img src="https://img.shields.io/badge/Zod-0d1117?style=flat&logo=zod&logoColor=3E67B1" alt="Zod">
   <img src="https://img.shields.io/badge/React%20Hook%20Form-0d1117?style=flat&logo=reacthookform&logoColor=EC5990" alt="React Hook Form">
   <img src="https://img.shields.io/badge/Radix%20UI-0d1117?style=flat&logo=radixui&logoColor=white" alt="Radix UI">
+  <img src="https://img.shields.io/badge/Framer%20Motion-0d1117?style=flat&logo=framer&logoColor=white" alt="Framer Motion">
   <img src="https://img.shields.io/badge/Vitest-0d1117?style=flat&logo=vitest&logoColor=6E9F18" alt="Vitest">
-  <img src="https://img.shields.io/badge/ESLint-0d1117?style=flat&logo=eslint&logoColor=4B32C3" alt="ESLint">
-  <img src="https://img.shields.io/badge/Prettier-0d1117?style=flat&logo=prettier&logoColor=F7B93E" alt="Prettier">
+  <img src="https://img.shields.io/badge/Playwright-0d1117?style=flat&logo=playwright&logoColor=2EAD33" alt="Playwright">
+  <img src="https://img.shields.io/badge/Maze-0d1117?style=flat" alt="Maze">
+</p>
+
+<p align="center">
+  <b>Backend & Cloud</b><br>
+  <img src="https://img.shields.io/badge/Python-0d1117?style=flat&logo=python&logoColor=3776AB" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Pydantic-0d1117?style=flat&logo=pydantic&logoColor=E92063" alt="Pydantic">
+  <img src="https://img.shields.io/badge/SQLAlchemy-0d1117?style=flat&logo=sqlalchemy&logoColor=D71F00" alt="SQLAlchemy">
+  <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/pgvector-0d1117?style=flat&logo=postgresql&logoColor=white" alt="pgvector">
+  <img src="https://img.shields.io/badge/LangGraph-0d1117?style=flat&logo=langchain&logoColor=white" alt="LangGraph">
+  <img src="https://img.shields.io/badge/Google%20Pub%2FSub-0d1117?style=flat&logo=googlecloud&logoColor=4285F4" alt="Google Pub/Sub">
+  <img src="https://img.shields.io/badge/Document%20AI-0d1117?style=flat&logo=googlecloud&logoColor=4285F4" alt="Document AI">
+  <img src="https://img.shields.io/badge/Cloud%20Run-0d1117?style=flat&logo=googlecloud&logoColor=4285F4" alt="Cloud Run">
+  <img src="https://img.shields.io/badge/JWT-0d1117?style=flat&logo=jsonwebtokens&logoColor=white" alt="JWT">
+  <img src="https://img.shields.io/badge/Docker-0d1117?style=flat&logo=docker&logoColor=2496ED" alt="Docker">
+  <img src="https://img.shields.io/badge/Pytest-0d1117?style=flat&logo=pytest&logoColor=0A9EDC" alt="Pytest">
   <img src="https://img.shields.io/badge/GitHub%20Actions-0d1117?style=flat&logo=githubactions&logoColor=2088FF" alt="GitHub Actions">
   <img src="https://img.shields.io/badge/Vercel-0d1117?style=flat&logo=vercel&logoColor=white" alt="Vercel">
-  <img src="https://img.shields.io/badge/Maze-0d1117?style=flat" alt="Maze">
 </p>
 
 <p align="center">
@@ -75,7 +94,7 @@ PymeBoost is a platform that connects Costa Rican SMEs with high-performance bus
   Team of 2
 </p>
 
-SmartReserve is a distributed backend for managing restaurant reservations and orders, with a complete analytics layer on top. Clients book tables and place orders while administrators manage their restaurants and menus, all through a FastAPI REST API secured with AWS Cognito JWT tokens and role-based access control. A DAO pattern lets the system switch between PostgreSQL and a sharded MongoDB cluster with replica sets by changing a single configuration variable, Redis caches frequent responses, and an independent microservice indexes the menus in Elasticsearch for full-text search. Everything runs on Kubernetes behind an Nginx load balancer, with a GitHub Actions pipeline that runs the test suite with a 90% coverage gate and publishes the Docker images. A daily Airflow pipeline loads a star-schema data warehouse in Hive, runs Spark analyses of consumption trends, peak hours, and monthly growth for Metabase dashboards, and a Neo4j graph models orders and delivery zones to find co-purchase patterns and shortest delivery routes.
+SmartReserve is a distributed backend for restaurant reservations and orders with a full analytics layer. A FastAPI REST API secured with AWS Cognito and role-based access uses a DAO pattern to switch between PostgreSQL and a sharded MongoDB cluster, with Redis caching and an Elasticsearch search microservice, all running on Kubernetes behind Nginx with a CI pipeline and a 90% coverage gate. A daily Airflow pipeline loads a Hive star-schema data warehouse with Spark analyses for Metabase dashboards, and a Neo4j graph finds co-purchase patterns and shortest delivery routes.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-0d1117?style=flat&logo=python&logoColor=3776AB" alt="Python">
@@ -84,6 +103,7 @@ SmartReserve is a distributed backend for managing restaurant reservations and o
   <img src="https://img.shields.io/badge/MongoDB-0d1117?style=flat&logo=mongodb&logoColor=47A248" alt="MongoDB">
   <img src="https://img.shields.io/badge/Redis-0d1117?style=flat&logo=redis&logoColor=DC382D" alt="Redis">
   <img src="https://img.shields.io/badge/Elasticsearch-0d1117?style=flat&logo=elasticsearch&logoColor=00BFB3" alt="Elasticsearch">
+  <img src="https://img.shields.io/badge/Neo4j-0d1117?style=flat&logo=neo4j&logoColor=4581C3" alt="Neo4j">
   <img src="https://img.shields.io/badge/AWS%20Cognito-0d1117?style=flat&logo=amazonwebservices&logoColor=FF9900" alt="AWS Cognito">
   <img src="https://img.shields.io/badge/Docker-0d1117?style=flat&logo=docker&logoColor=2496ED" alt="Docker">
   <img src="https://img.shields.io/badge/Kubernetes-0d1117?style=flat&logo=kubernetes&logoColor=326CE5" alt="Kubernetes">
@@ -112,17 +132,17 @@ SmartReserve is a distributed backend for managing restaurant reservations and o
   Team of 2
 </p>
 
-Merkadit is a management system for gastronomic markets and the businesses that operate inside them. Its 56-table MySQL database models markets, buildings, commercial spaces, businesses, contracts, inventory, products, point-of-sale sales, invoicing, and finances. Stored procedures register complete sales with tax calculation inside a transaction and settle each business at the end of the month, applying its commission and rent. A FastAPI REST API with a 4-layer architecture (handler, controller, service, repository) exposes sales and settlements, documented with Swagger and tested with Postman, and a Power BI dashboard built on a business report view shows the monthly sales, commissions, and net balance of every business.
+Merkadit manages gastronomic markets and the businesses inside them. A 56-table MySQL database models markets, spaces, businesses, contracts, inventory, sales, and finances, with stored procedures that register point-of-sale sales and settle each business monthly with its commission and rent. A FastAPI REST API with a 4-layer architecture exposes sales and settlements, and a Power BI dashboard shows the monthly results of every business.
 
 <p align="center">
   <img src="https://img.shields.io/badge/MySQL-0d1117?style=flat&logo=mysql&logoColor=4479A1" alt="MySQL">
+  <img src="https://img.shields.io/badge/MySQL%20Workbench-0d1117?style=flat&logo=mysql&logoColor=white" alt="MySQL Workbench">
   <img src="https://img.shields.io/badge/Python-0d1117?style=flat&logo=python&logoColor=3776AB" alt="Python">
   <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI">
   <img src="https://img.shields.io/badge/Pydantic-0d1117?style=flat&logo=pydantic&logoColor=E92063" alt="Pydantic">
   <img src="https://img.shields.io/badge/Docker-0d1117?style=flat&logo=docker&logoColor=2496ED" alt="Docker">
   <img src="https://img.shields.io/badge/Power%20BI-0d1117?style=flat&logo=powerbi&logoColor=F2C811" alt="Power BI">
   <img src="https://img.shields.io/badge/Postman-0d1117?style=flat&logo=postman&logoColor=FF6C37" alt="Postman">
-  <img src="https://img.shields.io/badge/MySQL%20Workbench-0d1117?style=flat&logo=mysql&logoColor=white" alt="MySQL Workbench">
 </p>
 
 <p align="center">
@@ -141,7 +161,7 @@ Merkadit is a management system for gastronomic markets and the businesses that 
   Team of 5
 </p>
 
-PromptSales is the data platform of an AI-powered marketing and sales company made up of three sub-companies: PromptContent generates creative content for campaigns, PromptAds runs and optimizes advertising campaigns, and PromptCRM follows leads until the sale is closed. Each sub-company has its own database (MongoDB for content and SQL Server for ads and CRM), and an incremental ETL pipeline built with SSIS and MongoDB aggregation pipelines consolidates them every 11 minutes into a central PostgreSQL data warehouse, loading only new and modified records through delta views and watermarks. All databases run in their own Kubernetes namespaces with secrets, persistent volumes, and one-command PowerShell deploy scripts, and the project also includes concurrency and encryption demos in SQL Server and an MCP server that lets an AI assistant query the databases in natural language.
+PromptSales is the data platform of an AI-powered marketing and sales company with three sub-companies for content, ads, and CRM, each with its own database in MongoDB or SQL Server. An incremental ETL pipeline with SSIS and MongoDB aggregations consolidates them every 11 minutes into a central PostgreSQL data warehouse, loading only new records through watermarks. All databases run in their own Kubernetes namespaces, and an MCP server lets an AI assistant query them in natural language.
 
 <p align="center">
   <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
@@ -150,10 +170,13 @@ PromptSales is the data platform of an AI-powered marketing and sales company ma
   <img src="https://img.shields.io/badge/Redis-0d1117?style=flat&logo=redis&logoColor=DC382D" alt="Redis">
   <img src="https://img.shields.io/badge/SSIS-0d1117?style=flat&logo=microsoftsqlserver&logoColor=white" alt="SSIS">
   <img src="https://img.shields.io/badge/SQL%20Server%20Agent-0d1117?style=flat&logo=microsoftsqlserver&logoColor=white" alt="SQL Server Agent">
+  <img src="https://img.shields.io/badge/pgAdmin-0d1117?style=flat&logo=postgresql&logoColor=white" alt="pgAdmin">
   <img src="https://img.shields.io/badge/Docker-0d1117?style=flat&logo=docker&logoColor=2496ED" alt="Docker">
   <img src="https://img.shields.io/badge/Kubernetes-0d1117?style=flat&logo=kubernetes&logoColor=326CE5" alt="Kubernetes">
   <img src="https://img.shields.io/badge/PowerShell-0d1117?style=flat&logo=powershell&logoColor=5391FE" alt="PowerShell">
-  <img src="https://img.shields.io/badge/pgAdmin-0d1117?style=flat&logo=postgresql&logoColor=white" alt="pgAdmin">
+  <img src="https://img.shields.io/badge/Python-0d1117?style=flat&logo=python&logoColor=3776AB" alt="Python">
+  <img src="https://img.shields.io/badge/MCP-0d1117?style=flat&logo=modelcontextprotocol&logoColor=white" alt="MCP">
+  <img src="https://img.shields.io/badge/Pinecone-0d1117?style=flat" alt="Pinecone">
 </p>
 
 <p align="center">

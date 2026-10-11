@@ -4,7 +4,7 @@
   Computer Engineering student at the Instituto Tecnológico de Costa Rica (TEC) who builds full-stack and data-intensive software in teams.
   I focus on backend, data, and AI-powered products: designing databases, ETL pipelines, REST APIs, and Kubernetes deployments,
   and I also work on the frontend, like leading the frontend of a hackathon-winning platform.
-  I enjoy leading projects, communicating technical decisions clearly, and turning user research into working products.
+  I enjoy leading projects, communicating technical decisions clearly, and turning user research into working products. Always eager to learn more!
 </p>
 
 <p align="center">

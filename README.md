@@ -1,16 +1,209 @@
-## Hi there 👋
+<h1 align="center">Christopher Daniel Vargas Villalta</h1>
 
-<!--
-**chris124v/chris124v** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Computer Engineering student at the Instituto Tecnológico de Costa Rica (TEC) who builds full-stack and data-intensive software in teams.
+  I focus on backend, data, and AI-powered products: designing databases, ETL pipelines, REST APIs, and Kubernetes deployments,
+  and I also work on the frontend, like leading the frontend of a hackathon-winning platform.
+  I enjoy leading projects, communicating technical decisions clearly, and turning user research into working products.
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <b>Computer Engineering @ <a href="https://www.tec.ac.cr/">TEC</a></b>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="assets/thorfinn.gif" alt="Thorfinn" width="160">
+</p>
+
+---
+
+## Projects
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <img src="assets/pymeboost.png" alt="PymeBoost" height="110">
+      <h3>PymeBoost</h3>
+      <p>🏆 <b>Winner of the CRTW Hackathon 2026</b> · Participant in the <b>AUGE program</b></p>
+      <p>
+        Platform that matches Costa Rican SMEs with business advisors using AI.
+        As <b>frontend lead</b> of a team of 4, I defined the frontend architecture and standards, organized the app into six feature modules
+        (auth, matching, messaging, contracts, dashboard, reports), co-led user research and Maze usability tests,
+        and set up CI/CD with GitHub Actions and automatic Vercel deploys.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-0d1117?style=flat&logo=nextdotjs&logoColor=white" alt="Next.js">
+        <img src="https://img.shields.io/badge/React-0d1117?style=flat&logo=react&logoColor=61DAFB" alt="React">
+        <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat&logo=typescript&logoColor=3178C6" alt="TypeScript">
+        <img src="https://img.shields.io/badge/TanStack%20Query-0d1117?style=flat&logo=reactquery&logoColor=FF4154" alt="TanStack Query">
+        <img src="https://img.shields.io/badge/Framer%20Motion-0d1117?style=flat&logo=framer&logoColor=white" alt="Framer Motion">
+        <img src="https://img.shields.io/badge/Playwright-0d1117?style=flat&logo=playwright&logoColor=2EAD33" alt="Playwright">
+      </p>
+      <a href="https://pymeboost-v1.vercel.app/"><img src="https://img.shields.io/badge/-live%20prototype-000000?style=flat&logo=vercel&logoColor=white" alt="Live prototype"></a>
+      <a href="https://github.com/IsaacVil/PymeBoost"><img src="https://img.shields.io/badge/-repository-6E40C9?style=flat&logo=github&logoColor=white" alt="Repository"></a>
+    </td>
+    <td align="center" valign="top" width="50%">
+      <img src="assets/smartreserve.png" alt="SmartReserve" height="110">
+      <h3>SmartReserve</h3>
+      <p>
+        Distributed restaurant reservation backend with analytics. I built most of the FastAPI REST API with AWS Cognito JWT auth and RBAC,
+        using the DAO pattern to switch between PostgreSQL and sharded MongoDB with a single config variable.
+        Microservices run on Kubernetes behind an Nginx load balancer with Redis caching, Elasticsearch search, and a 149-test CI pipeline,
+        plus a daily Airflow pipeline that loads a Hive star-schema data warehouse with Spark analyses and a Neo4j graph for delivery routes.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI">
+        <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
+        <img src="https://img.shields.io/badge/MongoDB-0d1117?style=flat&logo=mongodb&logoColor=47A248" alt="MongoDB">
+        <img src="https://img.shields.io/badge/Redis-0d1117?style=flat&logo=redis&logoColor=DC382D" alt="Redis">
+        <img src="https://img.shields.io/badge/Elasticsearch-0d1117?style=flat&logo=elasticsearch&logoColor=00BFB3" alt="Elasticsearch">
+        <img src="https://img.shields.io/badge/Neo4j-0d1117?style=flat&logo=neo4j&logoColor=4581C3" alt="Neo4j">
+        <img src="https://img.shields.io/badge/Kubernetes-0d1117?style=flat&logo=kubernetes&logoColor=326CE5" alt="Kubernetes">
+        <img src="https://img.shields.io/badge/Airflow-0d1117?style=flat&logo=apacheairflow&logoColor=017CEE" alt="Airflow">
+        <img src="https://img.shields.io/badge/Spark-0d1117?style=flat&logo=apachespark&logoColor=E25A1C" alt="Spark">
+      </p>
+      <a href="https://github.com/chris124v/SmartReserve"><img src="https://img.shields.io/badge/-repository-6E40C9?style=flat&logo=github&logoColor=white" alt="Repository"></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <img src="assets/merkadit.png" alt="Merkadit" height="110">
+      <h3>Merkadit</h3>
+      <p>
+        Management system for gastronomic markets and the businesses inside them. I designed most of the 56-table MySQL database
+        (users, contracts, sales, and finance modules), with stored procedures for point-of-sale registration and monthly business settlements,
+        a FastAPI REST API with a 4-layer architecture (handler, controller, service, repository), and a Power BI dashboard.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/MySQL-0d1117?style=flat&logo=mysql&logoColor=4479A1" alt="MySQL">
+        <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI">
+        <img src="https://img.shields.io/badge/Python-0d1117?style=flat&logo=python&logoColor=3776AB" alt="Python">
+        <img src="https://img.shields.io/badge/Power%20BI-0d1117?style=flat&logo=powerbi&logoColor=F2C811" alt="Power BI">
+        <img src="https://img.shields.io/badge/Postman-0d1117?style=flat&logo=postman&logoColor=FF6C37" alt="Postman">
+      </p>
+      <a href="https://github.com/chris124v/Merkadit"><img src="https://img.shields.io/badge/-repository-6E40C9?style=flat&logo=github&logoColor=white" alt="Repository"></a>
+    </td>
+    <td align="center" valign="top" width="50%">
+      <img src="assets/dua-streamliner.png" alt="DUA Streamliner" height="110">
+      <h3>DUA Streamliner</h3>
+      <p>
+        System that automates Costa Rica's customs declaration (DUA) from invoices, PDFs, and scanned documents, using document classification,
+        OCR, and AI field extraction with LangGraph agents mapped to the official template. I designed the cloud architecture on Google Cloud
+        and scaffolded a FastAPI backend with Domain-Driven Design and a React frontend with Atomic Design, validated with usability tests and heatmaps.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI">
+        <img src="https://img.shields.io/badge/React-0d1117?style=flat&logo=react&logoColor=61DAFB" alt="React">
+        <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat&logo=typescript&logoColor=3178C6" alt="TypeScript">
+        <img src="https://img.shields.io/badge/Google%20Cloud-0d1117?style=flat&logo=googlecloud&logoColor=4285F4" alt="Google Cloud">
+        <img src="https://img.shields.io/badge/Vertex%20AI-0d1117?style=flat&logo=googlegemini&logoColor=8E75B2" alt="Vertex AI">
+        <img src="https://img.shields.io/badge/LangGraph-0d1117?style=flat&logo=langchain&logoColor=white" alt="LangGraph">
+      </p>
+      <a href="https://github.com/chris124v/DUA_StreamLiner"><img src="https://img.shields.io/badge/-repository-6E40C9?style=flat&logo=github&logoColor=white" alt="Repository"></a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Other Projects
+
+- **[Arkanoid ED](https://github.com/chris124v/Arkanoid-ED)**: remake of the classic Arkanoid in C++ with Allegro 5, with 10 levels, enemies, and blocks managed with linked lists and dynamic memory.
+- **[Huffman Compressor](https://github.com/chris124v/Huffman-Compressor)**: C++ console tool that compresses and decompresses any file with the Huffman algorithm and shows compression statistics.
+- **[UndercoverParties](https://github.com/chris124v/UndercoverParties)**: Django monolith with server-side rendering to publish parties, accept guests, and find them on a Leaflet map.
+- **[Speedboats](https://github.com/chris124v/Speedboats)**: Micronaut microservices with a React and Tailwind frontend to manage community boat tours.
+- **[ChatBotProlog](https://github.com/chris124v/ChatBotProlog)**: console chatbot in Prolog that answers questions, handles synonyms, and learns new knowledge through logical inference.
+
+---
+
+## Technology Stack
+
+<table>
+  <tr>
+    <td><b>Languages</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+      <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+      <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
+      <img src="https://img.shields.io/badge/JAVA-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+    </td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+      <img src="https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
+      <img src="https://img.shields.io/badge/TAILWIND%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+      <img src="https://img.shields.io/badge/TANSTACK%20QUERY-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Query">
+      <img src="https://img.shields.io/badge/ZOD-3E67B1?style=for-the-badge&logo=zod&logoColor=white" alt="Zod">
+      <img src="https://img.shields.io/badge/FRAMER%20MOTION-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion">
+    </td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+      <img src="https://img.shields.io/badge/SQLALCHEMY-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy">
+      <img src="https://img.shields.io/badge/PYDANTIC-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic">
+      <img src="https://img.shields.io/badge/DJANGO-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django">
+      <img src="https://img.shields.io/badge/MICRONAUT-1A1A1A?style=for-the-badge&logo=micronaut&logoColor=white" alt="Micronaut">
+      <img src="https://img.shields.io/badge/JWT%20%26%20RBAC-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT and RBAC">
+    </td>
+  </tr>
+  <tr>
+    <td><b>Databases</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/POSTGRESQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+      <img src="https://img.shields.io/badge/SQL%20SERVER-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server">
+      <img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+      <img src="https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+      <img src="https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
+      <img src="https://img.shields.io/badge/NEO4J-4581C3?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j">
+      <img src="https://img.shields.io/badge/ELASTICSEARCH-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch">
+    </td>
+  </tr>
+  <tr>
+    <td><b>Data Engineering</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/AIRFLOW-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Airflow">
+      <img src="https://img.shields.io/badge/SPARK-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark">
+      <img src="https://img.shields.io/badge/HIVE-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black" alt="Hive">
+      <img src="https://img.shields.io/badge/SSIS-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SSIS">
+      <img src="https://img.shields.io/badge/METABASE-509EE3?style=for-the-badge&logo=metabase&logoColor=white" alt="Metabase">
+      <img src="https://img.shields.io/badge/POWER%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
+    </td>
+  </tr>
+  <tr>
+    <td><b>Cloud & DevOps</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+      <img src="https://img.shields.io/badge/KUBERNETES-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes">
+      <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx">
+      <img src="https://img.shields.io/badge/GITHUB%20ACTIONS-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS">
+      <img src="https://img.shields.io/badge/VERCEL-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
+      <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+    </td>
+  </tr>
+  <tr>
+    <td><b>Testing</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/PYTEST-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest">
+      <img src="https://img.shields.io/badge/VITEST-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest">
+      <img src="https://img.shields.io/badge/PLAYWRIGHT-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright">
+      <img src="https://img.shields.io/badge/POSTMAN-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
+    </td>
+  </tr>
+</table>
+
+---
+
+## Connect with Me
+
+<p>
+  <a href="mailto:cdvv12@gmail.com"><img src="https://img.shields.io/badge/EMAIL-cdvv12%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/christopher-daniel-vargas-villalta-433529317/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://github.com/chris124v"><img src="https://img.shields.io/badge/GITHUB-chris124v-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+</p>

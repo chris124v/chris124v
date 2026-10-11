@@ -28,125 +28,139 @@
 
 ## Projects
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/pymeboost.png" alt="PymeBoost" height="110">
-    </td>
-    <td align="center" width="50%">
-      <h3>PymeBoost</h3>
-      🏆 <b>Winner of the CRTW Hackathon 2026</b><br>
-      Participant in the <a href="https://diprovid.ucr.ac.cr/auge/"><b>AUGE</b></a> program
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      Platform that matches Costa Rican SMEs with business advisors using AI.
-      As <b>frontend lead</b> of a team of 4, I defined the frontend architecture and standards, organized the app into six feature modules
-      (auth, matching, messaging, contracts, dashboard, reports), co-led user research and Maze usability tests,
-      and set up CI/CD with GitHub Actions and automatic Vercel deploys.
-    </td>
-    <td align="center" valign="middle" width="50%">
-      <img src="https://img.shields.io/badge/Next.js-0d1117?style=flat&logo=nextdotjs&logoColor=white" alt="Next.js">
-      <img src="https://img.shields.io/badge/React-0d1117?style=flat&logo=react&logoColor=61DAFB" alt="React">
-      <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat&logo=typescript&logoColor=3178C6" alt="TypeScript">
-      <img src="https://img.shields.io/badge/TanStack%20Query-0d1117?style=flat&logo=reactquery&logoColor=FF4154" alt="TanStack Query">
-      <br><br>
-      <a href="https://pymeboost-v1.vercel.app/"><img src="https://img.shields.io/badge/-live%20prototype-000000?style=flat&logo=vercel&logoColor=white" alt="Live prototype"></a>
-      <a href="https://github.com/IsaacVil/PymeBoost"><img src="https://img.shields.io/badge/-repository-6E40C9?style=flat&logo=github&logoColor=white" alt="Repository"></a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/pymeboost.png" alt="PymeBoost" width="300">
+</p>
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/smartreserve.png" alt="SmartReserve" height="110">
-    </td>
-    <td align="center" width="50%">
-      <h3>SmartReserve</h3>
-      Distributed restaurant backend and analytics
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      I built most of the FastAPI REST API with AWS Cognito JWT auth and RBAC,
-      using the DAO pattern to switch between PostgreSQL and sharded MongoDB with a single config variable.
-      Microservices run on Kubernetes behind an Nginx load balancer with Redis caching, Elasticsearch search, and a 149-test CI pipeline,
-      plus a daily Airflow pipeline that loads a Hive star-schema data warehouse with Spark analyses and a Neo4j graph for delivery routes.
-    </td>
-    <td align="center" valign="middle" width="50%">
-      <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI">
-      <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
-      <img src="https://img.shields.io/badge/MongoDB-0d1117?style=flat&logo=mongodb&logoColor=47A248" alt="MongoDB">
-      <img src="https://img.shields.io/badge/Redis-0d1117?style=flat&logo=redis&logoColor=DC382D" alt="Redis">
-      <img src="https://img.shields.io/badge/Elasticsearch-0d1117?style=flat&logo=elasticsearch&logoColor=00BFB3" alt="Elasticsearch">
-      <img src="https://img.shields.io/badge/Kubernetes-0d1117?style=flat&logo=kubernetes&logoColor=326CE5" alt="Kubernetes">
-      <img src="https://img.shields.io/badge/Airflow-0d1117?style=flat&logo=apacheairflow&logoColor=017CEE" alt="Airflow">
-      <img src="https://img.shields.io/badge/Spark-0d1117?style=flat&logo=apachespark&logoColor=E25A1C" alt="Spark">
-      <br><br>
-      <a href="https://github.com/chris124v/SmartReserve"><img src="https://img.shields.io/badge/-repository-6E40C9?style=flat&logo=github&logoColor=white" alt="Repository"></a>
-    </td>
-  </tr>
-</table>
+<h3 align="center">PymeBoost</h3>
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/merkadit.png" alt="Merkadit" height="110">
-    </td>
-    <td align="center" width="50%">
-      <h3>Merkadit</h3>
-      Gastronomic market management
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      Management system for gastronomic markets and the businesses inside them. I designed most of the 56-table MySQL database
-      (users, contracts, sales, and finance modules), with stored procedures for point-of-sale registration and monthly business settlements,
-      a FastAPI REST API with a 4-layer architecture (handler, controller, service, repository), and a Power BI dashboard.
-    </td>
-    <td align="center" valign="middle" width="50%">
-      <img src="https://img.shields.io/badge/MySQL-0d1117?style=flat&logo=mysql&logoColor=4479A1" alt="MySQL">
-      <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI">
-      <img src="https://img.shields.io/badge/Python-0d1117?style=flat&logo=python&logoColor=3776AB" alt="Python">
-      <img src="https://img.shields.io/badge/Power%20BI-0d1117?style=flat&logo=powerbi&logoColor=F2C811" alt="Power BI">
-      <img src="https://img.shields.io/badge/Postman-0d1117?style=flat&logo=postman&logoColor=FF6C37" alt="Postman">
-      <br><br>
-      <a href="https://github.com/chris124v/Merkadit"><img src="https://img.shields.io/badge/-repository-6E40C9?style=flat&logo=github&logoColor=white" alt="Repository"></a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  🏆 <b>Winner of the CRTW Hackathon 2026</b> · Participant in the <a href="https://diprovid.ucr.ac.cr/auge/"><b>AUGE</b></a> program<br>
+  <b>Frontend Lead</b> · Team of 4
+</p>
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/promptsales.png" alt="PromptSales" height="110">
-    </td>
-    <td align="center" width="50%">
-      <h3>PromptSales</h3>
-      Multi-database data platform
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      Multi-database platform for an AI marketing and sales company, built by a team of 5. I designed the central PostgreSQL data warehouse
-      (54 tables, six design iterations) and built an incremental ETL pipeline with SSIS and MongoDB aggregations that merges two SQL Server
-      databases and one MongoDB database, loading only new records with a delta watermark per source and running every 11 minutes.
-      I also set up the team's Kubernetes environment with five database instances, secrets, and PowerShell deploy scripts.
-    </td>
-    <td align="center" valign="middle" width="50%">
-      <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
-      <img src="https://img.shields.io/badge/SQL%20Server-0d1117?style=flat&logo=microsoftsqlserver&logoColor=CC2927" alt="SQL Server">
-      <img src="https://img.shields.io/badge/MongoDB-0d1117?style=flat&logo=mongodb&logoColor=47A248" alt="MongoDB">
-      <img src="https://img.shields.io/badge/SSIS-0d1117?style=flat&logo=microsoftsqlserver&logoColor=white" alt="SSIS">
-      <img src="https://img.shields.io/badge/Redis-0d1117?style=flat&logo=redis&logoColor=DC382D" alt="Redis">
-      <img src="https://img.shields.io/badge/Kubernetes-0d1117?style=flat&logo=kubernetes&logoColor=326CE5" alt="Kubernetes">
-      <br><br>
-      <a href="https://github.com/chris124v/PromptSales-Data-Platform"><img src="https://img.shields.io/badge/-repository-6E40C9?style=flat&logo=github&logoColor=white" alt="Repository"></a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <i>Platform that matches Costa Rican SMEs with business advisors using AI.</i>
+</p>
+
+- Defined the frontend architecture and standards, and organized the app into six feature modules: auth, matching, messaging, contracts, dashboard, and reports.
+- Built the client with Next.js, React, and TypeScript, separating global state (Zustand) from server state (TanStack Query) with Zod validation.
+- Co-led user research with 9 stakeholder interviews and ran Maze usability tests on the Vercel prototype.
+- Set up CI/CD with GitHub Actions (lint and Vitest with an 80% coverage gate) and automatic Vercel deploys.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-0d1117?style=flat&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/React-0d1117?style=flat&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat&logo=typescript&logoColor=3178C6" alt="TypeScript">
+  <img src="https://img.shields.io/badge/TanStack%20Query-0d1117?style=flat&logo=reactquery&logoColor=FF4154" alt="TanStack Query">
+  <img src="https://img.shields.io/badge/Zod-0d1117?style=flat&logo=zod&logoColor=3E67B1" alt="Zod">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-0d1117?style=flat&logo=githubactions&logoColor=2088FF" alt="GitHub Actions">
+</p>
+
+<p align="center">
+  <a href="https://pymeboost-v1.vercel.app/"><img src="https://img.shields.io/badge/LIVE%20PROTOTYPE-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live prototype"></a>
+  <a href="https://github.com/IsaacVil/PymeBoost"><img src="https://img.shields.io/badge/REPOSITORY-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="Repository"></a>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="assets/smartreserve.png" alt="SmartReserve" width="360">
+</p>
+
+<h3 align="center">SmartReserve</h3>
+
+<p align="center">
+  <b>Backend & Data Engineering</b> · Team of 2
+</p>
+
+<p align="center">
+  <i>Distributed restaurant reservation backend with a full analytics pipeline.</i>
+</p>
+
+- Built most of the FastAPI REST API with AWS Cognito JWT auth and RBAC, using the DAO pattern to switch between PostgreSQL and sharded MongoDB with a single config variable.
+- Deployed the microservices on Kubernetes behind an Nginx load balancer, with Redis caching, Elasticsearch search, and a GitHub Actions pipeline running 149 tests (90% coverage gate).
+- Built a daily Airflow pipeline that loads a Hive star-schema data warehouse, with Spark analyses feeding Metabase dashboards.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI">
+  <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/MongoDB-0d1117?style=flat&logo=mongodb&logoColor=47A248" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Redis-0d1117?style=flat&logo=redis&logoColor=DC382D" alt="Redis">
+  <img src="https://img.shields.io/badge/Elasticsearch-0d1117?style=flat&logo=elasticsearch&logoColor=00BFB3" alt="Elasticsearch">
+  <img src="https://img.shields.io/badge/Kubernetes-0d1117?style=flat&logo=kubernetes&logoColor=326CE5" alt="Kubernetes">
+  <img src="https://img.shields.io/badge/Airflow-0d1117?style=flat&logo=apacheairflow&logoColor=017CEE" alt="Airflow">
+  <img src="https://img.shields.io/badge/Spark-0d1117?style=flat&logo=apachespark&logoColor=E25A1C" alt="Spark">
+</p>
+
+<p align="center">
+  <a href="https://github.com/chris124v/SmartReserve"><img src="https://img.shields.io/badge/REPOSITORY-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="Repository"></a>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="assets/merkadit.png" alt="Merkadit" width="170">
+</p>
+
+<h3 align="center">Merkadit</h3>
+
+<p align="center">
+  <b>Database Design & Backend</b> · Team of 2
+</p>
+
+<p align="center">
+  <i>Management system for gastronomic markets and the businesses inside them.</i>
+</p>
+
+- Designed most of the 56-table MySQL database: users, contracts, sales, and finance modules.
+- Wrote stored procedures for point-of-sale registration and monthly business settlements, plus a view that feeds a Power BI dashboard.
+- Exposed the database through a FastAPI REST API with a 4-layer architecture (handler, controller, service, repository).
+
+<p align="center">
+  <img src="https://img.shields.io/badge/MySQL-0d1117?style=flat&logo=mysql&logoColor=4479A1" alt="MySQL">
+  <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Python-0d1117?style=flat&logo=python&logoColor=3776AB" alt="Python">
+  <img src="https://img.shields.io/badge/Power%20BI-0d1117?style=flat&logo=powerbi&logoColor=F2C811" alt="Power BI">
+  <img src="https://img.shields.io/badge/Postman-0d1117?style=flat&logo=postman&logoColor=FF6C37" alt="Postman">
+</p>
+
+<p align="center">
+  <a href="https://github.com/chris124v/Merkadit"><img src="https://img.shields.io/badge/REPOSITORY-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="Repository"></a>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="assets/promptsales.png" alt="PromptSales" width="340">
+</p>
+
+<h3 align="center">PromptSales</h3>
+
+<p align="center">
+  <b>Database Design & Data Engineering</b> · Team of 5
+</p>
+
+<p align="center">
+  <i>Multi-database data platform for an AI marketing and sales company.</i>
+</p>
+
+- Designed the central PostgreSQL data warehouse (54 tables, six design iterations) that consolidates the sales data of the content, ads, and CRM sub-companies.
+- Built an incremental ETL pipeline with SSIS and MongoDB aggregations that merges two SQL Server databases and one MongoDB database, loading only new records with a delta watermark per source every 11 minutes.
+- Set up the team's Kubernetes environment with five database instances, secrets, persistent volumes, and PowerShell deploy scripts.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/SQL%20Server-0d1117?style=flat&logo=microsoftsqlserver&logoColor=CC2927" alt="SQL Server">
+  <img src="https://img.shields.io/badge/MongoDB-0d1117?style=flat&logo=mongodb&logoColor=47A248" alt="MongoDB">
+  <img src="https://img.shields.io/badge/SSIS-0d1117?style=flat&logo=microsoftsqlserver&logoColor=white" alt="SSIS">
+  <img src="https://img.shields.io/badge/Redis-0d1117?style=flat&logo=redis&logoColor=DC382D" alt="Redis">
+  <img src="https://img.shields.io/badge/Kubernetes-0d1117?style=flat&logo=kubernetes&logoColor=326CE5" alt="Kubernetes">
+</p>
+
+<p align="center">
+  <a href="https://github.com/chris124v/PromptSales-Data-Platform"><img src="https://img.shields.io/badge/REPOSITORY-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="Repository"></a>
+</p>
 
 ---
 

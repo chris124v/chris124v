@@ -45,8 +45,6 @@
         <img src="https://img.shields.io/badge/React-0d1117?style=flat&logo=react&logoColor=61DAFB" alt="React">
         <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat&logo=typescript&logoColor=3178C6" alt="TypeScript">
         <img src="https://img.shields.io/badge/TanStack%20Query-0d1117?style=flat&logo=reactquery&logoColor=FF4154" alt="TanStack Query">
-        <img src="https://img.shields.io/badge/Framer%20Motion-0d1117?style=flat&logo=framer&logoColor=white" alt="Framer Motion">
-        <img src="https://img.shields.io/badge/Playwright-0d1117?style=flat&logo=playwright&logoColor=2EAD33" alt="Playwright">
       </p>
       <a href="https://pymeboost-v1.vercel.app/"><img src="https://img.shields.io/badge/-live%20prototype-000000?style=flat&logo=vercel&logoColor=white" alt="Live prototype"></a>
       <a href="https://github.com/IsaacVil/PymeBoost"><img src="https://img.shields.io/badge/-repository-6E40C9?style=flat&logo=github&logoColor=white" alt="Repository"></a>
@@ -66,7 +64,6 @@
         <img src="https://img.shields.io/badge/MongoDB-0d1117?style=flat&logo=mongodb&logoColor=47A248" alt="MongoDB">
         <img src="https://img.shields.io/badge/Redis-0d1117?style=flat&logo=redis&logoColor=DC382D" alt="Redis">
         <img src="https://img.shields.io/badge/Elasticsearch-0d1117?style=flat&logo=elasticsearch&logoColor=00BFB3" alt="Elasticsearch">
-        <img src="https://img.shields.io/badge/Neo4j-0d1117?style=flat&logo=neo4j&logoColor=4581C3" alt="Neo4j">
         <img src="https://img.shields.io/badge/Kubernetes-0d1117?style=flat&logo=kubernetes&logoColor=326CE5" alt="Kubernetes">
         <img src="https://img.shields.io/badge/Airflow-0d1117?style=flat&logo=apacheairflow&logoColor=017CEE" alt="Airflow">
         <img src="https://img.shields.io/badge/Spark-0d1117?style=flat&logo=apachespark&logoColor=E25A1C" alt="Spark">
@@ -149,7 +146,6 @@
       <img src="https://img.shields.io/badge/TAILWIND%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
       <img src="https://img.shields.io/badge/TANSTACK%20QUERY-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Query">
       <img src="https://img.shields.io/badge/ZOD-3E67B1?style=for-the-badge&logo=zod&logoColor=white" alt="Zod">
-      <img src="https://img.shields.io/badge/FRAMER%20MOTION-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion">
     </td>
   </tr>
   <tr>
@@ -158,8 +154,6 @@
       <img src="https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
       <img src="https://img.shields.io/badge/SQLALCHEMY-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy">
       <img src="https://img.shields.io/badge/PYDANTIC-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic">
-      <img src="https://img.shields.io/badge/DJANGO-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django">
-      <img src="https://img.shields.io/badge/MICRONAUT-1A1A1A?style=for-the-badge&logo=micronaut&logoColor=white" alt="Micronaut">
       <img src="https://img.shields.io/badge/JWT%20%26%20RBAC-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT and RBAC">
     </td>
   </tr>
@@ -171,7 +165,6 @@
       <img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
       <img src="https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
       <img src="https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
-      <img src="https://img.shields.io/badge/NEO4J-4581C3?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j">
       <img src="https://img.shields.io/badge/ELASTICSEARCH-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch">
     </td>
   </tr>
@@ -203,7 +196,6 @@
     <td>
       <img src="https://img.shields.io/badge/PYTEST-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest">
       <img src="https://img.shields.io/badge/VITEST-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest">
-      <img src="https://img.shields.io/badge/PLAYWRIGHT-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright">
       <img src="https://img.shields.io/badge/POSTMAN-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
     </td>
   </tr>

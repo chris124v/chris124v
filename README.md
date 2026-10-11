@@ -17,6 +17,15 @@
 
 ---
 
+## Highlights
+
+- 🏆 **Winner of the CRTW Hackathon 2026** with PymeBoost, as frontend lead of a team of 4.
+- 🚀 **Participant in the AUGE program** with PymeBoost.
+- 🎓 **Academic Excellence Scholarship** at TEC (I Semester 2026), awarded for outstanding academic performance.
+- 🌎 **Cambridge C1 Advanced** certified in English (overall score 190).
+
+---
+
 ## Projects
 
 <table>
@@ -84,22 +93,23 @@
       <a href="https://github.com/chris124v/Merkadit"><img src="https://img.shields.io/badge/-repository-6E40C9?style=flat&logo=github&logoColor=white" alt="Repository"></a>
     </td>
     <td align="center" valign="top" width="50%">
-      <img src="assets/dua-streamliner.png" alt="DUA Streamliner" height="110">
-      <h3>DUA Streamliner</h3>
+      <img src="assets/promptsales.png" alt="PromptSales" height="110">
+      <h3>PromptSales</h3>
       <p>
-        System that automates Costa Rica's customs declaration (DUA) from invoices, PDFs, and scanned documents, using document classification,
-        OCR, and AI field extraction with LangGraph agents mapped to the official template. I designed the cloud architecture on Google Cloud
-        and scaffolded a FastAPI backend with Domain-Driven Design and a React frontend with Atomic Design, validated with usability tests and heatmaps.
+        Multi-database platform for an AI marketing and sales company, built by a team of 5. I designed the central PostgreSQL data warehouse
+        (54 tables, six design iterations) and built an incremental ETL pipeline with SSIS and MongoDB aggregations that merges two SQL Server
+        databases and one MongoDB database, loading only new records with a delta watermark per source and running every 11 minutes.
+        I also set up the team's Kubernetes environment with five database instances, secrets, and PowerShell deploy scripts.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI">
-        <img src="https://img.shields.io/badge/React-0d1117?style=flat&logo=react&logoColor=61DAFB" alt="React">
-        <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat&logo=typescript&logoColor=3178C6" alt="TypeScript">
-        <img src="https://img.shields.io/badge/Google%20Cloud-0d1117?style=flat&logo=googlecloud&logoColor=4285F4" alt="Google Cloud">
-        <img src="https://img.shields.io/badge/Vertex%20AI-0d1117?style=flat&logo=googlegemini&logoColor=8E75B2" alt="Vertex AI">
-        <img src="https://img.shields.io/badge/LangGraph-0d1117?style=flat&logo=langchain&logoColor=white" alt="LangGraph">
+        <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
+        <img src="https://img.shields.io/badge/SQL%20Server-0d1117?style=flat&logo=microsoftsqlserver&logoColor=CC2927" alt="SQL Server">
+        <img src="https://img.shields.io/badge/MongoDB-0d1117?style=flat&logo=mongodb&logoColor=47A248" alt="MongoDB">
+        <img src="https://img.shields.io/badge/SSIS-0d1117?style=flat&logo=microsoftsqlserver&logoColor=white" alt="SSIS">
+        <img src="https://img.shields.io/badge/Redis-0d1117?style=flat&logo=redis&logoColor=DC382D" alt="Redis">
+        <img src="https://img.shields.io/badge/Kubernetes-0d1117?style=flat&logo=kubernetes&logoColor=326CE5" alt="Kubernetes">
       </p>
-      <a href="https://github.com/chris124v/DUA_StreamLiner"><img src="https://img.shields.io/badge/-repository-6E40C9?style=flat&logo=github&logoColor=white" alt="Repository"></a>
+      <a href="https://github.com/chris124v/PromptSales-Data-Platform"><img src="https://img.shields.io/badge/-repository-6E40C9?style=flat&logo=github&logoColor=white" alt="Repository"></a>
     </td>
   </tr>
 </table>
@@ -108,6 +118,7 @@
 
 ## Other Projects
 
+- **[DUA Streamliner](https://github.com/chris124v/DUA_StreamLiner)**: system design for automating Costa Rica's customs declaration (DUA) with OCR and AI field extraction, with a FastAPI backend using Domain-Driven Design and a React frontend on Google Cloud.
 - **[Arkanoid ED](https://github.com/chris124v/Arkanoid-ED)**: remake of the classic Arkanoid in C++ with Allegro 5, with 10 levels, enemies, and blocks managed with linked lists and dynamic memory.
 - **[Huffman Compressor](https://github.com/chris124v/Huffman-Compressor)**: C++ console tool that compresses and decompresses any file with the Huffman algorithm and shows compression statistics.
 - **[UndercoverParties](https://github.com/chris124v/UndercoverParties)**: Django monolith with server-side rendering to publish parties, accept guests, and find them on a Leaflet map.
@@ -200,10 +211,18 @@
 
 ---
 
+## What I Enjoy as a Developer
+
+- **Leading projects:** taking the lead role, setting the technical direction, and keeping the team aligned.
+- **Working as a team:** building things together and sharing what each person does best.
+- **Being creative:** finding new ways to solve problems and turning ideas into working products.
+- **Meeting people:** connecting with developers, users, and people from other fields.
+- **Listening to ideas:** hearing other points of view and letting them change my perspective.
+
+---
+
 ## Connect with Me
 
-<p>
-  <a href="mailto:cdvv12@gmail.com"><img src="https://img.shields.io/badge/EMAIL-cdvv12%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/christopher-daniel-vargas-villalta-433529317/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/chris124v"><img src="https://img.shields.io/badge/GITHUB-chris124v-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-</p>
+- **Email:** [cdvv12@gmail.com](mailto:cdvv12@gmail.com)
+- **LinkedIn:** [linkedin.com/in/christopher-daniel-vargas-villalta-433529317](https://www.linkedin.com/in/christopher-daniel-vargas-villalta-433529317/)
+- **GitHub:** [github.com/chris124v](https://github.com/chris124v)

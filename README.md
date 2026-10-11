@@ -19,10 +19,10 @@
 
 ## Highlights
 
-- 🏆 **Winner of the CRTW Hackathon 2026** with PymeBoost, as frontend lead of a team of 4.
-- 🚀 **Participant in the AUGE program** with PymeBoost.
-- 🎓 **Academic Excellence Scholarship** at TEC (I Semester 2026), awarded for outstanding academic performance.
-- 🌎 **Cambridge C1 Advanced** certified in English (overall score 190).
+- **Winner of the CRTW Hackathon 2026** with PymeBoost, as frontend lead of a team of 4.
+- **Participant in the [AUGE](https://diprovid.ucr.ac.cr/auge/) program** with PymeBoost.
+- **Academic Excellence Scholarship** at TEC (I Semester 2026), awarded for outstanding academic performance.
+- **Cambridge C1 Advanced** certified in English (overall score 190).
 
 ---
 
